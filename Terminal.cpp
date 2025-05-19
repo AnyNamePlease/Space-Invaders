@@ -3,21 +3,21 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-Terminal::static void enableRawMode() {
+static void Terminal:enableRawMode() {
         termios term;
         tcgetattr(STDIN_FILENO, &term);
         term.c_lflag &= ~(ICANON | ECHO);
         tcsetattr(STDIN_FILENO, TCSANOW, &term);
   }
 
-Terminal::static void disableRawMode() {
+static void Terminal:disableRawMode() {
         termios term;
         tcgetattr(STDIN_FILENO, &term);
         term.c_lflag |= ICANON | ECHO;
         tcsetattr(STDIN_FILENO, TCSANOW, &term);
-    }
+}
 
-Terminal::static int kbhit() {
+static int Terminal:kbhit() {
         termios oldt, newt;
         int ch;
         int oldf;
@@ -41,4 +41,4 @@ Terminal::static int kbhit() {
         }
 
         return 0;
-    }
+}
