@@ -23,8 +23,8 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourname/space-invaders-terminal.git 
-   cd space-invaders-terminal
+   git clone https://github.com/AnyNamePlease/Space-Invaders.git 
+   cd Space-Invaders
 2. Compile the project:
    ```bash
    clang++ main.cpp -std=c++20 -stdlib=libc++ -o invaders
@@ -32,7 +32,7 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
    or
    
    ```bash
-   g++ main.cpp -o invaders -std=c++11
+   g++ main.cpp -o invaders -std=c++20
 4. Run the game:
    ```bash
    ./invaders
@@ -44,7 +44,7 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 
 - `Entity`, `Player`, `Enemy`, `Bullet`, `Explosion`, `Barrier`, `Game`, `Terminal`
 
-## Technologies Used
+## Technologies I Used
 
 - C++20 
 - ANSI escape sequences
