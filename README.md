@@ -38,3 +38,18 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 # Note
 
 - if something goes wrong, use **reset** in terminal
+
+## Classes Used
+
+- `Entity`, `Player`, `Enemy`, `Bullet`, `Explosion`, `Barrier`, `Game`, `Terminal`
+
+## Technologies
+
+- C++11+
+- ANSI escape sequences
+- Termios
+- Unix/Linux terminal
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
