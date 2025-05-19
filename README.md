@@ -2,7 +2,7 @@
 
 A simple terminal-based version of the classic "Space Invaders" game written in C++ using terminal ANSI codes for rendering graphics.
 
-![Gameplay Screenshot](screenshot.png) <!-- Если есть скриншот -->
+![Gameplay Screenshot](Screenshot 2025-05-19 at 09.20.19.png) <!-- Если есть скриншот -->
 
 ## Features
 
@@ -25,3 +25,16 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
    ```bash
    git clone https://github.com/yourname/space-invaders-terminal.git 
    cd space-invaders-terminal
+2. Compile the project:
+   ```bash
+   clang++ main.cpp -std=c++20 -stdlib=libc++ -o invaders
+   ```
+   or
+   ```bash
+   g++ main.cpp -o invaders -std=c++11
+3. Run the game:
+   ```bash
+   ./invaders
+# Note
+
+- if something goes wrong, use **reset** in terminal
