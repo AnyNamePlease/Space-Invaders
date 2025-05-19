@@ -27,12 +27,12 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
    cd Space-Invaders
 2. Compile the project:
    ```bash
-   clang++ main.cpp -std=c++20 -stdlib=libc++ -o invaders
+   clang++ SpaceInvaders.cpp -std=c++20 -stdlib=libc++ -o invaders
    ```
    or
    
    ```bash
-   g++ main.cpp -o invaders -std=c++20
+   g++ SpaceInvaders.cpp -o invaders -std=c++20
 4. Run the game:
    ```bash
    ./invaders
