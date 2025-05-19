@@ -30,9 +30,10 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
    clang++ main.cpp -std=c++20 -stdlib=libc++ -o invaders
    ```
    or
+   
    ```bash
    g++ main.cpp -o invaders -std=c++11
-3. Run the game:
+4. Run the game:
    ```bash
    ./invaders
 # Note
