@@ -2,7 +2,7 @@
 
 A simple terminal-based version of the classic "Space Invaders" game written in C++ using terminal ANSI codes for rendering graphics.
 
-![Gameplay Screenshot](Screenshot 2025-05-19 at 09.20.19.png) <!-- Если есть скриншот -->
+![Gameplay Screenshot](screenshot.png) <!-- Если есть скриншот -->
 
 ## Features
 
