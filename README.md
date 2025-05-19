@@ -45,7 +45,7 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 
 ## Technologies
 
-- C++11+
+- C++20 
 - ANSI escape sequences
 - Termios
 - Unix/Linux terminal
