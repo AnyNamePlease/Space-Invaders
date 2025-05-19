@@ -53,4 +53,4 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 
 ## License
 
-This project is under the Unlicensed license.
+This project is Unlicensed.
