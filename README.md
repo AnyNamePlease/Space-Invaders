@@ -43,7 +43,7 @@ A simple terminal-based version of the classic "Space Invaders" game written in 
 
 - `Entity`, `Player`, `Enemy`, `Bullet`, `Explosion`, `Barrier`, `Game`, `Terminal`
 
-## Technologies
+## Technologies Used
 
 - C++20 
 - ANSI escape sequences
